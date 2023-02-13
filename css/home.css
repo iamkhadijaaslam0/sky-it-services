@@ -1,0 +1,12 @@
+.black{
+    height: 400px;
+    width: 100%;
+    background-image: url(/images/Untitled\ design.png);
+    background-size: cover;
+}
+.paragraph{
+    height: 150px;
+    width: 100%;
+    overflow: auto;
+}
+
