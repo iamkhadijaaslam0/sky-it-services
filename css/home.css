@@ -9,4 +9,27 @@
     width: 100%;
     overflow: auto;
 }
+.logo img{
+    height: 80px;
+    width: 80px;
+}
+.photos img{
+    width: 210px;
+    height: 300px;
+}
+#show{
+    width: 100px;
+    height: 80px ;
+}
+.test img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+footer{
+    background-color: rgb(33, 32, 32);
+}
+footer .button{
+    width: 100px;
+}
 
