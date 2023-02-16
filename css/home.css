@@ -6,7 +6,6 @@
 }
 .paragraph{
     height: 150px;
-    width: 100%;
     overflow: auto;
 }
 .logo img{
@@ -31,5 +30,9 @@ footer{
 }
 footer .button{
     width: 100px;
+}
+.office img{
+    height: 200px;
+    width: 400px;
 }
 
