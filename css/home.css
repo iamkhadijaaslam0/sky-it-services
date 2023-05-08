@@ -1,47 +1,203 @@
-.black{
-    height: 400px;
-    width: 100%;
-    background-image: url(/images/Untitled\ design.png);
-    background-size: cover;
-}
-.paragraph{
-    height: 150px;
-    overflow: auto;
-}
-.logo img{
-    height: 80px;
-    width: 80px;
-}
-.photos img{
-    width: 210px;
-    height: 300px;
-}
-#show{
-    width: 100px;
-    height: 80px ;
-}
-.test img{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
-footer{
-    background-color: rgb(33, 32, 32);
-}
-footer .button{
-    width: 100px;
-}
-.office img{
-    height: 200px;
-    width: 400px;
-}
-.inside img{
-    width: 310px;
-    height: 200px;
-}
-.card{
-    background-image: url(/images/photo6.jpg);
-    background-size: cover;
-   
+.black {
+  height: 400px;
+  width: 100%;
+  /* background-image: url(/images/Untitled\ design.png);
+    background-size: cover; */
+  background-color: #5297f7;
 }
 
+.read-more-container {
+  height: auto;
+}
+.read-more-btn {
+  color: #000;
+  font-weight: bold;
+}
+.read-more-text {
+  display: none;
+}
+
+.read-more-text--show {
+  display: inline;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
+.photos img {
+  width: 210px;
+  height: 300px;
+}
+
+#show {
+  width: 100px;
+  height: 80px;
+}
+
+.test img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: rgb(33, 32, 32);
+}
+
+footer .button {
+  width: 100px;
+}
+
+.office img {
+  height: 200px;
+  width: 400px;
+}
+
+.inside img {
+  width: 310px;
+  height: 200px;
+}
+
+.card {
+  background-image: url(/images/photo6.jpg);
+  background-size: cover;
+}
+
+.get {
+  margin-top: -12px;
+}
+
+.ellispe {
+  box-sizing: border-box;
+  position: absolute;
+  width: 4%;
+  height: 8%;
+  margin-left: 48%;
+  top: 190px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.ellispe-1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  margin-left: 46%;
+  top: 168px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.ellispe-2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 13%;
+  height: 24%;
+  margin-left: 43.5%;
+  top: 140px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+}
+.ellispe-3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 19%;
+  height: 33%;
+  margin-left: 40.5%;
+  top: 113px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.ellispe-4 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 27%;
+  height: 44%;
+  margin-left: 37%;
+  top: 80px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.ellispe-5 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 35%;
+  height: 54%;
+  margin-left: 33%;
+  top: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+.ellispe-6 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 42%;
+  height: 64%;
+  margin-left: 29.5%;
+  top: 15px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.ellispe-7 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 49.3%;
+  height: 73%;
+  margin-left: 25.8%;
+  top: -10px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+.ellispe-8 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 57%;
+  height: 82%;
+  margin-left: 22%;
+  top: -30px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+.ellispe-9 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 65%;
+  height: 89%;
+  margin-left: 18%;
+  top: -55px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.ellispe-10 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 75%;
+  height: 98%;
+  margin-left: 13%;
+  top: -80px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.ellispe-11 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 85%;
+  height: 108%;
+  margin-left: 7.5%;
+  top: -115px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.ellispe-12 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 95%;
+  height: 120%;
+  margin-left: 2.7%;
+  top: -150px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
