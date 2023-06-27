@@ -201,3 +201,14 @@ footer .button {
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.14);
 }
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+  /* THIS creates the animation! */
+  transition: transform 1s;
+}
